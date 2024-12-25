@@ -1,6 +1,6 @@
-# 🎂 Age Calculator: A Dynamic Age Computing Tool
+# 🎂 Age Calculator App
 
-**Age Calculator** is a JavaScript-powered web application that calculates your age in years, months, and days based on your birthdate. With its dynamic features and smooth animations, it provides an engaging way to determine exact ages.
+**Age Calculator** is a solution to the [Age Calculator App challenge](https://www.frontendmentor.io/challenges/age-calculator-app-dF9DFFpj-Q) on Frontend Mentor. It calculates your age in years, months, and days based on your birthdate, featuring dynamic updates and smooth animations.
 
 ---
 
@@ -34,6 +34,7 @@
 ---
 
 ## 📂 File Structure
+
 - `App.js`: Core application logic including calculation and validation functions.
 - `index.html`: Base structure of the application.
 - `styles.css`: Custom styles for the application.
@@ -44,6 +45,7 @@
 
 - **`App.js`**  
   Contains the core logic, including:
+
   - Input handling and validation
   - Age calculation functions
   - Number animation logic
@@ -55,6 +57,7 @@
 ---
 
 ## 🤝 Contributing
+
 Contributions are welcome! If you'd like to improve this app or add new features:
 
 - Fork the repository
