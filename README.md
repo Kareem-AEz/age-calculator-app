@@ -37,7 +37,7 @@
 
 - `App.js`: Core application logic including calculation and validation functions.
 - `index.html`: Base structure of the application.
-- `styles.css`: Custom styles for the application.
+- `index.css`: Custom styles for the application.
 
 ---
 
@@ -51,7 +51,7 @@
   - Number animation logic
   - UI components for input and output
 
-- **`styles.css`**  
+- **`index.css`**  
   Handles visual design for the application, including styles for input fields, buttons, and animated output displays.
 
 ---
@@ -65,7 +65,6 @@ Contributions are welcome! If you'd like to improve this app or add new features
 - Commit your changes (git commit -m "Add feature")
 - Push to the branch (git push origin feature-name)
 - Open a pull request
-
 
 ---
 
