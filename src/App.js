@@ -115,11 +115,14 @@ function FormField({ children, value, onChange, valid, placeHolder }) {
 }
 
 function OutputList({ age }) {
+	console.log(age);
+
 	return (
 		<div className="output-part">
 			<OutputPart value={age.years}>years</OutputPart>
 			<OutputPart value={age.months}>months</OutputPart>
 			<OutputPart value={age.days}>days</OutputPart>
+			{age.days === 0 && age.months === 0 ? <p className="birthday-message">Happy Birthday!🎉</p> : <br />}
 		</div>
 	);
 }

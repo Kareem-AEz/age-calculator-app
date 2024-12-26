@@ -73,19 +73,19 @@ Contributions are welcome! If you'd like to improve this app or add new features
 
 ### Birthday Celebration Feature 🎉
 
-Planning to add a special celebration when the user's birthdate matches the current date:
+Would you like to help add this fun feature? We'd love contributions to implement a special celebration when the user's birthdate matches the current date! Here's what we envision:
 
 - Trigger festive confetti animation on birthday matches
-- Add celebratory sound effects
+- Add celebratory sound effects  
 - Display personalized birthday message
 
-Here's a preview of the planned confetti celebration:
+Here's a preview of the confetti celebration we'd like to add:
 
 ![Birthday Confetti Animation](https://media.giphy.com/media/g5R9dok94mrIvplmZd/giphy.gif)
 
-The celebration feature will:
+The celebration feature would need to:
 - Compare input birth date with current date
 - Trigger celebration effects when dates match
 - Create a delightful surprise for users on their birthday
 
-This enhancement aims to make the age calculator more engaging and personal for users.
+If you're interested in implementing this enhancement to make the age calculator more engaging and personal, please check out our Contributing section above on how to submit your code. We welcome your creative ideas and contributions!
