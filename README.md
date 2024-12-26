@@ -77,7 +77,7 @@ Would you like to help add this fun feature? We'd love contributions to implemen
 
 - Trigger festive confetti animation on birthday matches
 - Add celebratory sound effects  
-- Display personalized birthday message
+- ✅ Display a birthday message
 
 Here's a preview of the confetti celebration we'd like to add:
 
