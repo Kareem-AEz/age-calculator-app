@@ -76,7 +76,6 @@ Contributions are welcome! If you'd like to improve this app or add new features
 Would you like to help add this fun feature? We'd love contributions to implement a special celebration when the user's birthdate matches the current date! Here's what we envision:
 
 - Trigger festive confetti animation on birthday matches
-- Add celebratory sound effects  
 - ✅ Display a birthday message
 
 Here's a preview of the confetti celebration we'd like to add:
