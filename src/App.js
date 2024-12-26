@@ -127,6 +127,8 @@ function OutputList({ age }) {
 function OutputPart({ children, value }) {
 	const [currentValue, setCurrentValue] = useState(DEFAULT_OUTPUT);
 
+	//! first version which had a bug when the birth day or month is equal to the current day or month
+	/* 
 	if (isFinite(value) && currentValue !== value) {
 		const initValue = 0;
 
@@ -136,6 +138,22 @@ function OutputPart({ children, value }) {
 			setCurrentValue
 		);
 	}
+	*/
+
+	// v2
+	// Ensure the animation logic runs only when necessary
+	if (isFinite(value) && currentValue !== value) {
+		const initValue = 0;
+
+		// If the current value is the default placeholder, initialize it
+		if (currentValue === DEFAULT_OUTPUT) {
+			setCurrentValue(initValue);
+		} else {
+			// Animate the number only when the current value is valid
+			animateNumber(currentValue, value, setCurrentValue);
+		}
+	}
+
 	return (
 		<div className="output-field">
 			<strong>{currentValue}</strong>
